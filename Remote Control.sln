@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote Control", "Remote Control.csproj", "{9EBB7FD3-8964-407A-9F05-CDC4D5C3BE88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote Control Server", "Remote Control Server.csproj", "{9EBB7FD3-8964-407A-9F05-CDC4D5C3BE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote Control Client", "..\Remote Control Client\Remote Control Client.csproj", "{CA5C74B9-D834-4D68-8A2E-8AC4A821B331}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9EBB7FD3-8964-407A-9F05-CDC4D5C3BE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EBB7FD3-8964-407A-9F05-CDC4D5C3BE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EBB7FD3-8964-407A-9F05-CDC4D5C3BE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5C74B9-D834-4D68-8A2E-8AC4A821B331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5C74B9-D834-4D68-8A2E-8AC4A821B331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5C74B9-D834-4D68-8A2E-8AC4A821B331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5C74B9-D834-4D68-8A2E-8AC4A821B331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
