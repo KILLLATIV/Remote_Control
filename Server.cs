@@ -2,7 +2,6 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-// https://github.com/KILLLATIV/Remote_Control
 
 namespace Remote_Control 
 {
