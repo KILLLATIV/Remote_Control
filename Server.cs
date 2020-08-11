@@ -9,7 +9,7 @@ namespace Remote_Control
     class Server
     {
         private const int Port = 4444;
-        private const string IP = "192.168.1.72";
+        private const string IP = "127.0.0.1";
 
         static void Main(string[] args)
         {
